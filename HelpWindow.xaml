@@ -1,0 +1,29 @@
+﻿<Window x:Class="PC_Component_Info.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PC_Component_Info"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        Title="Hilfe und Über" Height="450" Width="400" Background="{Binding BGC}">
+
+    <Window.DataContext>
+        <local:Vars/>
+    </Window.DataContext>
+
+    <StackPanel>
+        <Button Height="22" Style="{StaticResource defaultButton}" x:Name="Exit_BTN" Click="Exit_BTN_Click">Schließen</Button>
+        <Label Foreground="{Binding FGC}" Margin="0, 20 , 0, 0" Content="Über das Produkt" FontSize="14" FontWeight="Bold"/>
+        <Label Foreground="{Binding FGC}" x:Name="LBL_About_Text" Content=" " FontWeight="Bold"/>
+        <Label Foreground="{Binding FGC}" x:Name="LBL_Lizenz_Text" Content=" " FontSize="10"/>
+        <Label Foreground="{Binding FGC}" x:Name="LBL_Version" Content=" " Margin="0 , 10, 0, 0"/>
+        <Label Foreground="{Binding FGC}" x:Name="LBL_OS_Name" Content=" "/>
+        <Label Foreground="{Binding FGC}" x:Name="LBL_CPU_Name" Content=" "/>
+        <Label Foreground="{Binding FGC}" Content="Hilfe aus dem Web: " x:Name="LBL_Links" FontWeight="Bold" FontSize="14"/>
+        <Button Height="22" Style="{StaticResource defaultButton}" x:Name="H_LI_BTN" Content="Changelog" Click="H_LI_BTN_Click"/>
+        <Button Height="22" Style="{StaticResource defaultButton}" x:Name="H_Ud_BTN" Content="Update" Click="H_Ud_BTN_Click"/>
+        <Button Height="22" Style="{StaticResource defaultButton}" x:Name="H_DS_BTN" Content="Webseite" Click="H_DS_BTN_Click"/>
+        <Button Height="22" Style="{StaticResource defaultButton}" x:Name="H_HO_RM_BTN" Content="Online Hilfe und Feedback" Click="H_HO_RM_BTN_Click"/>
+    </StackPanel>
+</Window>
