@@ -1,0 +1,12 @@
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\PC_Component_Info.csproj.AssemblyReference.cache
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\PC_Component_Info.csproj.SuggestedBindingRedirects.cache
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\cl_win.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\HelpWindow.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\loading.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\MainWindow.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\storage.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\sysinfo.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\App.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\PC_Component_Info_MarkupCompile.cache
+C:\Users\Luke\Source\Repos\ProgrammerLP\PC-Info\obj\Debug\PC_Component_Info_MarkupCompile.lref
